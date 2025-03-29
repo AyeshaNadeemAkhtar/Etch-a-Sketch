@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxes {
+    border: 2px solid black;
+    width: 6.25%;
+    
+}
+
+.newBoxes {
+    border: 2px solid black;
+}
+
+.boxes,
+.newBoxes {
+    height: 100px;
+}
+
+
+#container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    border: 2px solid red;
+}
+
+#ask {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
