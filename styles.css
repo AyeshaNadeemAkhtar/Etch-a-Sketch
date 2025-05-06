@@ -3,35 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-.boxes {
-    border: 2px solid black;
-    width: 6.25%;
-    
-}
-
-.newBoxes {
-    border: 2px solid black;
-}
-
-.boxes,
-.newBoxes {
-    height: 100px;
-}
-
 
 #container {
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
-    width: 960px;
     border: 2px solid red;
+    width: 960px;
 }
 
-#ask {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    margin: 15px;
-    border-radius: 5px;
+.initialDivs {
+    border: 2px solid black;
+    flex: 1 0 6.25%;
+    height: 50px;
 }
 
+.recentDivs {
+    border: 2px solid black;
+    height: 50px;
+}
